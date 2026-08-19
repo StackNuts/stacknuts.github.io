@@ -1,0 +1,420 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="-259 -218 518 436"
+  width="518"
+  height="436"
+  aria-hidden="true"
+>
+  <style>
+    .s {
+      fill: #b8c7d6;
+    }
+    .t {
+      fill: #f2f2f3;
+    }
+    .a {
+      fill: #5980a6;
+    }
+    .hit {
+      fill: transparent;
+    }
+    .hex {
+      pointer-events: none;
+      transform-box: fill-box;
+      transform-origin: center;
+      transition:
+        transform 0.25s ease,
+        fill 0.25s ease,
+        opacity 0.25s ease;
+    }
+    .cell.pulse .hex,
+    #cluster:hover .glyph .hex {
+      fill: #eef6ff;
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hex {
+        transition: none;
+      }
+    }
+  </style>
+  <defs>
+    <g id="hex-nut">
+      <path
+        d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"
+      ></path>
+      <path
+        d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"
+      ></path>
+    </g>
+  </defs>
+  <g id="cluster">
+    <rect class="hit" x="-235" y="-198" width="470" height="396"></rect>
+    <g
+      class="cell"
+      transform="translate(-180.1,0.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-157.6,39.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.39"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-135.1,78.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-112.6,117.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.39"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-90.1,156.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-157.6,-39.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-135.1,0.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.44"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-112.6,39.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.41"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-90.1,78.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.44"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-67.5,117.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.41"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-45.0,156.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.39"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-135.1,-78.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-112.6,-39.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.44"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-90.1,0.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.46"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-67.5,39.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.49"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-45.0,78.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.46"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-22.5,117.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.44"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(0.0,156.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-112.6,-117.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-90.1,-78.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.44"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-67.5,-39.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.46"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(0.0,78.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.49"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(22.5,117.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.41"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(45.0,156.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.39"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-90.1,-156.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-67.5,-117.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.44"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-45.0,-78.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.46"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(45.0,78.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.46"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(67.5,117.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.44"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(90.1,156.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-45.0,-156.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.39"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(-22.5,-117.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.41"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(0.0,-78.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.49"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(67.5,39.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.46"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(90.1,78.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.44"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(112.6,117.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(0.0,-156.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(22.5,-117.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.44"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(45.0,-78.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.46"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(67.5,-39.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.49"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(90.1,0.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.46"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(112.6,39.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.44"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(135.1,78.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(45.0,-156.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.39"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(67.5,-117.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.41"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(90.1,-78.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.44"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(112.6,-39.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.41"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(135.1,0.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.44"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(157.6,39.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(90.1,-156.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(112.6,-117.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.39"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(135.1,-78.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex a" opacity="0.36"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(157.6,-39.0) scale(1.76) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex t" opacity="0.39"></use>
+    </g>
+    <g
+      class="cell"
+      transform="translate(180.1,0.0) scale(1.56) translate(-32,-16)"
+    >
+      <use href="#hex-nut" class="hex s" opacity="0.36"></use>
+    </g>
+    <g class="cell glyph" transform="translate(-40,-40) scale(2.5)">
+      <path
+        class="hex s"
+        opacity="0.42"
+        d="M28.985 8.502v14.996l-3.71 2.142v-14.997l-9.275-5.352-9.28 5.352v14.997l-3.705-2.142v-14.996l12.985-7.498zM16 30.996l-5.567-3.214v-14.996l3.711-2.143v14.997l1.856 1.127 1.856-1.127v-14.997l3.713 2.143v14.996z"
+      ></path>
+    </g>
+  </g>
+  <script>
+    (function () {
+      var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+      var timer = null;
+
+      function pulseRandomNut() {
+        var cells = document.querySelectorAll("#cluster > g.cell:not(.glyph)");
+        var cell = cells[Math.floor(Math.random() * cells.length)];
+        cell.classList.add("pulse");
+        setTimeout(function () {
+          cell.classList.remove("pulse");
+        }, 900);
+        scheduleNext();
+      }
+
+      function scheduleNext() {
+        timer = setTimeout(pulseRandomNut, 1200 + Math.random() * 2200);
+      }
+
+      function start() {
+        if (!timer) scheduleNext();
+      }
+      function stop() {
+        clearTimeout(timer);
+        timer = null;
+      }
+
+      if (!reduceMotion.matches) start();
+      reduceMotion.addEventListener("change", function (e) {
+        if (e.matches) stop();
+        else start();
+      });
+    })();
+  </script>
+</svg>
