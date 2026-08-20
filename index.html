@@ -67,8 +67,10 @@
 
           <div id="hero">
             <div>
-              <div class="eyebrow">Magento 2 · Free &amp; Open Source</div>
-              <h1>Magento Modules,<br />Bolted On Tight.</h1>
+              <div class="hero-title">
+                <div class="eyebrow">Magento 2 · Free &amp; Open Source</div>
+                <h1>Magento Modules,<br />Bolted On Tight.</h1>
+              </div>
               <p>
                 Open source Magento 2 modules built by an Adobe Certified Professional — solving real problems from real
                 Magento builds.
@@ -91,10 +93,6 @@
             </div>
             <div id="module-grid">
               <a class="card blueprint" href="https://github.com/stacknuts/magento-cloudflare-cache">
-                <i class="corner tl"></i>
-                <i class="corner tr"></i>
-                <i class="corner bl"></i>
-                <i class="corner br"></i>
                 <div class="card-head">
                   <div class="tag tag-accent">PERFORMANCE</div>
                   <div class="tag tag-outline">FREE</div>
@@ -108,10 +106,6 @@
               </a>
 
               <a class="card blueprint" href="https://github.com/stacknuts/magento-sort-rules">
-                <i class="corner tl"></i>
-                <i class="corner tr"></i>
-                <i class="corner bl"></i>
-                <i class="corner br"></i>
                 <div class="card-head">
                   <div class="tag tag-accent">MERCHANDISING</div>
                   <div class="tag tag-outline">FREE</div>
@@ -125,10 +119,6 @@
               </a>
 
               <a class="card blueprint" href="https://github.com/stacknuts/magento-csp-debug">
-                <i class="corner tl"></i>
-                <i class="corner tr"></i>
-                <i class="corner bl"></i>
-                <i class="corner br"></i>
                 <div class="card-head">
                   <div class="tag tag-accent">DEVELOPER TOOLS</div>
                   <div class="tag tag-outline">FREE</div>
@@ -154,10 +144,6 @@
               <a class="btn btn-secondary" href="https://github.com/StackNuts">VIEW ON GITHUB →</a>
             </div>
             <div class="card blueprint terminal">
-              <i class="corner tl"></i>
-              <i class="corner tr"></i>
-              <i class="corner bl"></i>
-              <i class="corner br"></i>
               <div>
                 <span class="terminal-label">TERMINAL</span>
                 <span class="terminal-copy"><span class="sc-interp">COPY</span></span>
@@ -180,10 +166,6 @@
                 class="card blueprint cred-card"
                 href="https://certification.adobe.com/credential/verify/1bbb544f-90e2-11f1-bdd6-42010a400002"
               >
-                <i class="corner tl"></i>
-                <i class="corner tr"></i>
-                <i class="corner bl"></i>
-                <i class="corner br"></i>
                 <img
                   class="cred-badge"
                   src="assets/adobe-cert.png"
@@ -205,8 +187,8 @@
               <div class="eyebrow">Support</div>
               <h2>If a module saved you time</h2>
               <p>
-                Sponsoring StackNuts keeps these maintained and new ones coming. No obligation — the modules stay free
-                either way.
+                Sponsoring StackNuts keeps these modules maintained and new ones coming. No obligation — the modules
+                stay free either way.
               </p>
             </div>
             <div class="btn-row">
@@ -245,5 +227,15 @@
         </div>
       </div>
     </div>
+    <script>
+      (function () {
+        var title = document.querySelector(".hero-title");
+        var hex = document.getElementById("hero-hex-magento");
+        if (!title || !hex || typeof ResizeObserver === "undefined") return;
+        new ResizeObserver(function (entries) {
+          hex.style.setProperty("--hero-title-h", entries[0].contentRect.height + "px");
+        }).observe(title);
+      })();
+    </script>
   </body>
 </html>

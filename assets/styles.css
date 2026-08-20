@@ -370,49 +370,8 @@ h4 {
 }
 
 .blueprint {
-  position: relative;
   border: 1px solid var(--color-divider);
   border-radius: 0;
-}
-.blueprint > .corner {
-  position: absolute;
-  width: 11px;
-  height: 11px;
-  color: color-mix(in srgb, var(--color-text) 55%, transparent);
-}
-.blueprint > .corner::before,
-.blueprint > .corner::after {
-  content: "";
-  position: absolute;
-  background: currentColor;
-}
-.blueprint > .corner::before {
-  left: 5px;
-  top: 0;
-  width: 1px;
-  height: 100%;
-}
-.blueprint > .corner::after {
-  top: 5px;
-  left: 0;
-  width: 100%;
-  height: 1px;
-}
-.blueprint > .corner.tl {
-  top: -6px;
-  left: -6px;
-}
-.blueprint > .corner.tr {
-  top: -6px;
-  right: -6px;
-}
-.blueprint > .corner.bl {
-  bottom: -6px;
-  left: -6px;
-}
-.blueprint > .corner.br {
-  bottom: -6px;
-  right: -6px;
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
@@ -605,7 +564,7 @@ figcaption {
 }
 
 /* — blueprint frame: components are wireframe objects (see .blueprint
-     and .corner above) — square, transparent, hairline-bordered — */
+     above) — square, transparent, hairline-bordered — */
 .card,
 .btn,
 .tag {
@@ -804,7 +763,7 @@ a.card {
 }
 
 #hero {
-  padding: 64px 40px 96px;
+  padding: 32px 40px 96px;
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
   gap: 48px;
@@ -814,7 +773,7 @@ a.card {
   margin-bottom: 16px;
 }
 #hero h1 {
-  font-size: 64px;
+  font-size: clamp(40px, 5vw + 20px, 64px);
   line-height: 1.02;
   letter-spacing: -0.005em;
   margin: 0 0 20px;
@@ -1036,7 +995,7 @@ a.card {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
-@media (max-width: 860px) {
+@media (max-width: 740px) {
   .nav {
     flex-wrap: wrap;
   }
@@ -1089,10 +1048,27 @@ a.card {
   #hero {
     grid-template-columns: 1fr !important;
     padding: 32px 24px 56px !important;
+    position: relative;
+    overflow: hidden;
+  }
+  #hero > div:first-child {
+    position: relative;
+    z-index: 1;
+  }
+  #hero p {
+    max-width: 640px;
   }
   #hero-hex-magento {
-    max-width: 320px;
-    margin: 8px auto 0;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: calc(var(--hero-title-h, 118px) * 1.5);
+    width: auto;
+    max-width: none;
+    margin: 0;
+    opacity: 0.32;
+    pointer-events: none;
+    z-index: 0;
   }
   [data-x="install-grid"] {
     grid-template-columns: 1fr !important;
@@ -1102,10 +1078,14 @@ a.card {
     grid-template-columns: 1fr !important;
     gap: 28px !important;
   }
-  #hero h1 {
-    font-size: 46px !important;
-  }
   #module-grid {
     grid-template-columns: 1fr !important;
+  }
+  #about > div {
+    text-align: left;
+  }
+  #about p {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
