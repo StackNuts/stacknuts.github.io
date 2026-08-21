@@ -1,8 +1,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  viewBox="-259 -218 518 436"
-  width="518"
-  height="436"
+  viewBox="-204 -185 408 370"
+  width="408"
+  height="370"
   aria-hidden="true"
 >
   <style>
@@ -50,7 +50,7 @@
     </g>
   </defs>
   <g id="cluster">
-    <rect class="hit" x="-235" y="-198" width="470" height="396"></rect>
+    <rect class="hit" x="-199" y="-180" width="398" height="360"></rect>
     <g
       class="cell"
       transform="translate(-180.1,0.0) scale(1.56) translate(-32,-16)"
