@@ -1,0 +1,12 @@
+{
+  "name": "stacknuts.github.io",
+  "private": true,
+  "description": "Dev-only tooling for the StackNuts landing page. Not part of the deployed static site.",
+  "type": "module",
+  "scripts": {
+    "og:generate": "node scripts/generate-og-image.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}
