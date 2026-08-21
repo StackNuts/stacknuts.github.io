@@ -159,7 +159,7 @@
           <div id="about">
             <div>
               <div class="eyebrow">About</div>
-              <h2>Built from 14 years in the Magento trenches</h2>
+              <h2>Built from <span id="years-exp">14</span> years in the Magento trenches</h2>
               <p>
                 StackNuts is the work of Phil Rowe, an Adobe Certified Professional — Adobe Commerce Developer. Every
                 module here came out of a real build, not a roadmap: shipped, documented, and kept maintained.
@@ -224,7 +224,9 @@
             </div>
           </div>
           <div class="footer-bottom">
-            <div class="container">© 2026 StackNuts · stacknuts.co.uk · MIT licensed</div>
+            <div class="container">
+              © <span id="copyright-year">2026</span> StackNuts · stacknuts.co.uk · MIT licensed
+            </div>
           </div>
         </div>
       </div>
@@ -237,6 +239,24 @@
         new ResizeObserver(function (entries) {
           hex.style.setProperty("--hero-title-h", entries[0].contentRect.height + "px");
         }).observe(title);
+      })();
+
+      (function () {
+        // Phil started at Axminster Tools in June 2012 — the "years in the
+        // trenches" figure counts full years from there, not just Magento.
+        var CAREER_START = new Date(2012, 5, 1);
+        var now = new Date();
+        var years = now.getFullYear() - CAREER_START.getFullYear();
+        var beforeAnniversary =
+          now.getMonth() < CAREER_START.getMonth() ||
+          (now.getMonth() === CAREER_START.getMonth() && now.getDate() < CAREER_START.getDate());
+        if (beforeAnniversary) years--;
+
+        var yearsEl = document.getElementById("years-exp");
+        if (yearsEl) yearsEl.textContent = years;
+
+        var copyrightEl = document.getElementById("copyright-year");
+        if (copyrightEl) copyrightEl.textContent = now.getFullYear();
       })();
     </script>
   </body>
