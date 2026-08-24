@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>StackNuts Visual Reference</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+  :root {
+    --bg: #f6f7f8;
+    --surface: #ffffff;
+    --surface-2: #eef1f3;
+    --border: #dde2e7;
+    --text: #1c2733;
+    --text-muted: #5b6675;
+    --text-faint: #8b95a3;
+    --accent: #5980a6;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --cond: "Barlow Condensed", system-ui, sans-serif;
+    --body: "Barlow", system-ui, sans-serif;
+    --radius: 3px;
+    /* the brand's own dark ground, used deliberately (not theme-driven) for
+       cards that need to show the mark/lockup the way it actually ships */
+    --brand-ground: #22384d;
+    --brand-1: #22384d;
+    --brand-2: #416180;
+    --brand-3: #597ea3;
+    --brand-4: #5980a6;
+    --brand-5: #a6bace;
+    --brand-6: #f2f2f3;
+    --brand-7: #6a8daf;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1a2a38;
+      --surface: #22384d;
+      --surface-2: #1c2f40;
+      --border: color-mix(in srgb, #f2f2f3 16%, transparent);
+      --text: #f2f2f3;
+      --text-muted: color-mix(in srgb, #f2f2f3 68%, transparent);
+      --text-faint: color-mix(in srgb, #f2f2f3 46%, transparent);
+      --accent: #7ea3c4;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1a2a38;
+    --surface: #22384d;
+    --surface-2: #1c2f40;
+    --border: color-mix(in srgb, #f2f2f3 16%, transparent);
+    --text: #f2f2f3;
+    --text-muted: color-mix(in srgb, #f2f2f3 68%, transparent);
+    --text-faint: color-mix(in srgb, #f2f2f3 46%, transparent);
+    --accent: #7ea3c4;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--body);
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 56px 28px 90px;
+  }
+  header.top { margin-bottom: 44px; }
+  .eyebrow {
+    font-family: var(--cond);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 10px;
+  }
+  h1 {
+    font-family: var(--cond);
+    font-weight: 700;
+    font-size: clamp(32px, 4vw, 44px);
+    letter-spacing: -0.01em;
+    line-height: 1.05;
+    margin: 0 0 14px;
+    text-wrap: balance;
+  }
+  header.top p {
+    max-width: 60ch;
+    color: var(--text-muted);
+    font-size: 16px;
+    margin: 0;
+  }
+  h2 {
+    font-family: var(--cond);
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: -0.005em;
+    margin: 0 0 6px;
+  }
+  .section-sub {
+    color: var(--text-muted);
+    font-size: 14px;
+    margin: 0 0 20px;
+    max-width: 68ch;
+  }
+  section {
+    margin-top: 56px;
+    padding-top: 32px;
+    border-top: 1px solid var(--border);
+  }
+  section:first-of-type { border-top: none; padding-top: 0; }
+
+  code {
+    font-family: var(--mono);
+    font-size: 0.92em;
+    background: var(--surface-2);
+    padding: 1px 5px;
+    border-radius: 2px;
+  }
+
+  /* — colour swatches — */
+  .swatch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 14px;
+  }
+  .swatch {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .swatch-color {
+    height: 74px;
+    display: flex;
+    align-items: flex-end;
+    padding: 8px;
+  }
+  .swatch-color .hex {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    padding: 2px 6px;
+    border-radius: 2px;
+    background: #0000004d;
+    color: #f2f2f3;
+  }
+  .swatch-meta { padding: 10px 12px 12px; }
+  .swatch-name {
+    font-family: var(--cond);
+    font-weight: 600;
+    font-size: 14.5px;
+    letter-spacing: 0.01em;
+    margin: 0 0 4px;
+  }
+  .swatch-use { font-size: 12px; color: var(--text-muted); line-height: 1.4; margin: 0; }
+
+  /* — logo cards — */
+  .logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+  }
+  .logo-card {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .logo-card .stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 24px;
+  }
+  .logo-card .stage.dark { background: var(--brand-ground); }
+  .logo-card .stage.light { background: #f2f2f3; }
+  .logo-card .stage img { display: block; }
+  .logo-card .caption {
+    padding: 10px 14px 12px;
+    font-size: 12.5px;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border);
+  }
+  .logo-card .caption strong {
+    display: block;
+    font-family: var(--cond);
+    font-weight: 600;
+    font-size: 13.5px;
+    color: var(--text);
+    margin-bottom: 2px;
+  }
+  .mark-only { width: 96px; height: 84px; }
+
+  /* — typography — */
+  .type-specimen {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    padding: 28px 26px;
+    margin-bottom: 16px;
+  }
+  .type-specimen.dark { background: var(--brand-ground); border-color: transparent; }
+  .spec-wordmark {
+    font-family: var(--cond);
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    font-size: 34px;
+    color: #f2f2f3;
+    text-transform: uppercase;
+  }
+  .spec-headline {
+    font-family: var(--cond);
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    font-size: 40px;
+    line-height: 1.05;
+    color: var(--text);
+    margin: 0;
+  }
+  .spec-eyebrow {
+    font-family: var(--cond);
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: var(--brand-5);
+    margin-bottom: 8px;
+  }
+  .spec-body {
+    font-family: var(--body);
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--text-muted);
+    max-width: 56ch;
+  }
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  thead th {
+    font-family: var(--cond);
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    background: var(--surface-2);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  td.role { color: var(--text-muted); white-space: normal; }
+
+  footer.note {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    font-size: 13.5px;
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="top">
+    <p class="eyebrow">branding /</p>
+    <h1>Visual reference</h1>
+    <p>Colour, logo, and type — as they actually ship. Edit this file by hand if any of it changes; it isn't generated from anything.</p>
+  </header>
+
+  <section>
+    <h2>Colour</h2>
+    <p class="section-sub">Seven colours, darkest to lightest. Everything else on the site is one of these at reduced opacity.</p>
+    <div class="swatch-grid">
+      <div class="swatch">
+        <div class="swatch-color" style="background:#22384d;"><span class="hex">#22384d</span></div>
+        <div class="swatch-meta">
+          <p class="swatch-name">Ground · brand-1</p>
+          <p class="swatch-use">The page field.</p>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#416180;"><span class="hex">#416180</span></div>
+        <div class="swatch-meta">
+          <p class="swatch-name">Accent, pressed · brand-2</p>
+          <p class="swatch-use">Button :active.</p>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#597ea3;"><span class="hex">#597ea3</span></div>
+        <div class="swatch-meta">
+          <p class="swatch-name">Accent, hover · brand-3</p>
+          <p class="swatch-use">Button :hover.</p>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#5980a6;"><span class="hex">#5980a6</span></div>
+        <div class="swatch-meta">
+          <p class="swatch-name">Accent · brand-4</p>
+          <p class="swatch-use">Buttons, links, tags.</p>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#a6bace;"><span class="hex" style="color:#12202c;background:#ffffffb3;">#a6bace</span></div>
+        <div class="swatch-meta">
+          <p class="swatch-name">Steel · brand-5</p>
+          <p class="swatch-use">Mark's back nuts, eyebrows, outline borders, links.</p>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#f2f2f3;"><span class="hex" style="color:#12202c;background:#ffffffb3;">#f2f2f3</span></div>
+        <div class="swatch-meta">
+          <p class="swatch-name">Paper · brand-6</p>
+          <p class="swatch-use">Body copy, headings.</p>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#6a8daf;"><span class="hex">#6a8daf</span></div>
+        <div class="swatch-meta">
+          <p class="swatch-name">Mark accent · brand-7</p>
+          <p class="swatch-use">The mark's front nut, only.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Logo &amp; mark</h2>
+    <p class="section-sub">Three hex nuts in a stack — back nuts in steel (brand-5), front nut in the mark accent (brand-7). Never flatten it to one colour.</p>
+    <div class="logo-grid">
+      <div class="logo-card">
+        <div class="stage dark">
+          <svg class="mark-only" viewBox="0 0 64 56" aria-hidden="true">
+            <g fill="#a6bace">
+              <path d="M 31.5 30.365 L 31.5 43.636 L 20 50.271 L 8.5 43.636 L 8.5 30.365 L 20 23.73 Z M 10.7 31.635 L 10.7 42.364 L 20 47.729 L 29.3 42.364 L 29.3 31.635 L 20 26.27 Z"></path>
+              <path d="M 25.6 37 A 5.6 5.6 0 1 1 14.4 37 A 5.6 5.6 0 0 1 25.6 37 Z M 23.4 37 A 3.4 3.4 0 1 0 16.6 37 A 3.4 3.4 0 0 0 23.4 37 Z"></path>
+              <path d="M 55.5 30.365 L 55.5 43.636 L 44 50.271 L 32.5 43.636 L 32.5 30.365 L 44 23.73 Z M 34.7 31.635 L 34.7 42.364 L 44 47.729 L 53.3 42.364 L 53.3 31.635 L 44 26.27 Z"></path>
+              <path d="M 49.6 37 A 5.6 5.6 0 1 1 38.4 37 A 5.6 5.6 0 0 1 49.6 37 Z M 47.4 37 A 3.4 3.4 0 1 0 40.6 37 A 3.4 3.4 0 0 0 47.4 37 Z"></path>
+            </g>
+            <g fill="#6a8daf">
+              <path d="M 43.5 9.365 L 43.5 22.636 L 32 29.271 L 20.5 22.636 L 20.5 9.365 L 32 2.73 Z M 22.7 10.635 L 22.7 21.364 L 32 26.729 L 41.3 21.364 L 41.3 10.635 L 32 5.27 Z"></path>
+              <path d="M 37.6 16 A 5.6 5.6 0 1 1 26.4 16 A 5.6 5.6 0 0 1 37.6 16 Z M 35.4 16 A 3.4 3.4 0 1 0 28.6 16 A 3.4 3.4 0 0 0 35.4 16 Z"></path>
+            </g>
+          </svg>
+        </div>
+        <div class="caption"><strong>Mark only</strong>assets/logo.svg — used via &lt;use fill="..."&gt; so CSS drives the colour</div>
+      </div>
+      <div class="logo-card">
+        <div class="stage dark">
+          <img src="assets/stacknuts-logo-full-dark.svg" alt="StackNuts lockup on dark ground" width="220" />
+        </div>
+        <div class="caption"><strong>Lockup, dark ground</strong>stacknuts-logo-full-dark.svg — the default; used everywhere except the light variant below</div>
+      </div>
+      <div class="logo-card">
+        <div class="stage light">
+          <img src="assets/stacknuts-logo-full.svg" alt="StackNuts lockup on light ground" width="220" />
+        </div>
+        <div class="caption"><strong>Lockup, light ground</strong>stacknuts-logo-full.svg — wordmark switches to accent-4 so it reads on paper</div>
+      </div>
+      <div class="logo-card">
+        <div class="stage dark">
+          <img src="../assets/favicon.svg" alt="StackNuts favicon" width="80" height="80" />
+        </div>
+        <div class="caption"><strong>Favicon</strong>assets/favicon.svg — 32×32, rounded corners for the browser tab</div>
+      </div>
+      <div class="logo-card">
+        <div class="stage dark">
+          <img src="assets/stacknuts-avatar.svg" alt="StackNuts profile avatar mark" width="80" height="80" />
+        </div>
+        <div class="caption"><strong>Profile avatar</strong>assets/stacknuts-avatar.svg — square (no baked-in rounding), mark cropped tighter — for GitHub/social profile photos, which apply their own circular mask</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Typography</h2>
+    <p class="section-sub">Barlow Condensed for headings, the wordmark and labels; Barlow for body copy.</p>
+
+    <div class="type-specimen dark">
+      <div class="spec-wordmark">Stacknuts</div>
+    </div>
+
+    <div class="type-specimen">
+      <p class="spec-eyebrow">Magento 2 · Free &amp; Open Source</p>
+      <h3 class="spec-headline">Magento Modules,<br />Bolted On Tight.</h3>
+    </div>
+
+    <div class="type-specimen">
+      <p class="spec-body">StackNuts is a small collection of open source Magento 2 modules, built and maintained by an Adobe Certified Professional. Body copy runs 15px at 1.55 line height — Barlow, not condensed, set for reading rather than display.</p>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Role</th><th>Family</th><th>Weight</th><th>Tracking</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Wordmark</td>
+            <td class="role">Barlow Condensed, uppercase</td>
+            <td class="role">600</td>
+            <td class="role">.14em</td>
+          </tr>
+          <tr>
+            <td>Hero headline</td>
+            <td class="role">Barlow Condensed</td>
+            <td class="role">700</td>
+            <td class="role">-.005em</td>
+          </tr>
+          <tr>
+            <td>Section heading</td>
+            <td class="role">Barlow Condensed</td>
+            <td class="role">600</td>
+            <td class="role">-.015em</td>
+          </tr>
+          <tr>
+            <td>Eyebrow / label</td>
+            <td class="role">Barlow Condensed, uppercase</td>
+            <td class="role">600</td>
+            <td class="role">.16em</td>
+          </tr>
+          <tr>
+            <td>Body copy</td>
+            <td class="role">Barlow</td>
+            <td class="role">400</td>
+            <td class="role">normal</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="note">
+    See <code>branding/design.md</code> for the full guidelines this reference illustrates.
+  </footer>
+</main>
+</body>
+</html>
