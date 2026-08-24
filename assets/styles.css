@@ -216,22 +216,29 @@
     U+2215, U+FEFF, U+FFFD;
 }
 
+/* StackNuts brand palette — the actual colours, darkest to lightest.
+   Everything else below is one of these six, or a role alias built
+   from them. This site has one scope only — there's no light mode
+   or toggle, so unlike Industry's default this isn't split into a
+   light block plus a dark override. */
 :root {
-  --color-bg: #f2f2f3;
-  --color-text: #1d1f20;
-  --color-accent: #5980a6;
-  --color-divider: color-mix(in srgb, #1d1f20 16%, transparent);
+  --brand-1: #22384d;
+  --brand-2: #416180;
+  --brand-3: #597ea3;
+  --brand-4: #5980a6;
+  --brand-5: #a6bace;
+  --brand-6: #f2f2f3;
+  --brand-7: #6a8daf; /* mark's front nut only — sits between brand-4 and
+    brand-5 in lightness, kept its own slot rather than renumbering the
+    scale above. Lighter than --color-accent so it reads against the
+    ground; distinct from --brand-5 so it stays visually its own nut. */
 
-  /* Tonal ramp — generated in OKLCH on one shared lightness scale. */
-  --color-accent-100: #eef6ff;
-  --color-accent-200: #d6ebff;
-  --color-accent-300: #b5d9fd;
-  --color-accent-400: #94bce3;
-  --color-accent-500: #749dc4;
-  --color-accent-600: #597ea3;
-  --color-accent-700: #416180;
-  --color-accent-800: #2c455d;
-  --color-accent-900: #1d2d3d;
+  --ground: var(--brand-1);
+  --color-text: var(--brand-6);
+  --color-accent: var(--brand-4);
+  --color-accent-600: var(--brand-3); /* accent, hover */
+  --color-accent-700: var(--brand-2); /* accent, pressed */
+  --color-divider: color-mix(in srgb, var(--color-text) 18%, transparent);
 
   --font-heading: "Barlow Condensed", system-ui, sans-serif;
   --font-heading-weight: 600;
@@ -239,7 +246,6 @@
 }
 
 body {
-  background: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-body);
 }
@@ -321,10 +327,6 @@ img {
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
-::selection {
-  background: color-mix(in srgb, var(--color-accent) 30%, transparent);
-}
-
 /* — buttons — */
 .btn {
   display: inline-flex;
@@ -350,7 +352,7 @@ img {
 }
 .btn-primary {
   background: var(--color-accent);
-  color: var(--color-bg);
+  color: var(--brand-6);
 }
 .btn-primary:hover {
   background: var(--color-accent-600);
@@ -400,8 +402,8 @@ img {
   padding: 3px 10px;
 }
 .tag-accent {
-  background: var(--color-accent-100);
-  color: var(--color-accent-800);
+  background: color-mix(in srgb, var(--color-accent) 26%, transparent);
+  color: var(--brand-5);
 }
 .tag-outline {
   border: 1px solid var(--color-accent);
@@ -442,15 +444,6 @@ img {
   border-color: var(--color-accent);
 }
 
-/* Dark scope: the system's own steel field with paper type reversed. */
-:root {
-  --ground: #22384d;
-  --color-text: #f2f2f3;
-  --steel: color-mix(in srgb, var(--color-text) 62%, var(--color-accent));
-  --color-divider: color-mix(in srgb, var(--color-text) 18%, transparent);
-  --color-accent-100: color-mix(in srgb, var(--color-accent) 26%, transparent);
-  --color-accent-800: var(--steel);
-}
 * {
   box-sizing: border-box;
 }
@@ -465,7 +458,7 @@ html {
   background: color-mix(in srgb, var(--color-accent) 40%, transparent);
 }
 a {
-  color: var(--steel);
+  color: var(--brand-5);
   text-underline-offset: 3px;
 }
 a:hover {
@@ -543,7 +536,7 @@ body {
   font-size: 11px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--steel);
+  color: var(--brand-5);
   font-weight: 600;
   margin-bottom: var(--space-12);
 }
@@ -587,8 +580,8 @@ a.card {
 .tag-outline {
   letter-spacing: 0.1em;
   font-weight: 600;
-  border-color: var(--steel);
-  color: var(--steel);
+  border-color: var(--brand-5);
+  color: var(--brand-5);
 }
 .footer-col {
   display: flex;
@@ -651,7 +644,7 @@ a.card {
   padding: var(--space-9) var(--space-18);
 }
 .nav .btn:hover {
-  color: var(--color-bg);
+  color: var(--brand-6);
 }
 
 #hero {
@@ -768,7 +761,7 @@ a.card {
   font-family: var(--font-body);
   font-size: 11.5px;
   letter-spacing: 0.06em;
-  color: var(--steel);
+  color: var(--brand-5);
 }
 .terminal .prompt {
   color: var(--color-accent);
