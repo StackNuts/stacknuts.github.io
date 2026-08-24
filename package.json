@@ -4,9 +4,10 @@
   "description": "Dev-only tooling for the StackNuts landing page. Not part of the deployed static site.",
   "type": "module",
   "scripts": {
-    "og:generate": "node scripts/generate-og-image.mjs"
+    "render": "node scripts/render-svg.mjs"
   },
   "devDependencies": {
-    "playwright": "^1.48.0"
+    "@resvg/resvg-js": "^2.6.2",
+    "wawoff2": "^2.0.1"
   }
 }
