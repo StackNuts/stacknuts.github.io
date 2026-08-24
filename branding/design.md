@@ -13,7 +13,7 @@ Seven actual colours, darkest to lightest (`--brand-7` is out of strict lightnes
 ```
 --brand-1   #22384d   ground — the page field
 --brand-2   #416180   accent, pressed
---brand-3   #597ea3   accent, hover
+--brand-3   #4e7192   accent, hover
 --brand-4   #5980a6   accent — buttons, tags, links
 --brand-5   #a6bace   steel — the mark's back nuts, eyebrows, outline borders, body links
 --brand-6   #f2f2f3   paper — headings, body, most of the wordmark
@@ -22,7 +22,7 @@ Seven actual colours, darkest to lightest (`--brand-7` is out of strict lightnes
                       its own nut rather than blending with the back pair
 ```
 
-Component CSS reads these through role aliases, not the numbers directly: `--ground` (`--brand-1`), `--color-text` (`--brand-6`), `--color-accent` (`--brand-4`), `--color-accent-600` / `--color-accent-700` (`--brand-3` / `--brand-2`, hover/pressed). `--brand-5` and `--brand-7` have no alias — they're used directly. `--brand-5` used to be two near-identical values (a computed `--steel` and a fixed `--mark-steel` six percent apart) that had drifted apart for no real reason; they're unified now. `--brand-7` is a deliberate, newer departure from the banners as originally exported — see The mark, below.
+Component CSS reads these through role aliases, not the numbers directly: `--ground` (`--brand-1`), `--color-text` (`--brand-6`), `--color-accent` (`--brand-4`), `--color-accent-600` / `--color-accent-700` (`--brand-3` / `--brand-2`, hover/pressed). `--brand-5` and `--brand-7` have no alias — they're used directly. `--brand-5` used to be two near-identical values (a computed `--steel` and a fixed `--mark-steel` six percent apart) that had drifted apart for no real reason; they're unified now. `--brand-3` had the opposite problem — it was only 0.6% darker than `--brand-4` (an inherited mismatch from an unrelated generated ramp), making the primary button's hover state effectively invisible; it's now -6% lightness at the same hue/saturation, a real, visible step before `--brand-2`'s -12%. `--brand-7` is a deliberate, newer departure from the banners as originally exported — see The mark, below.
 
 **[Visual reference →](visual-reference.html)** — swatches, the logo in every treatment, and the type scale, side by side. Static and standalone (open it directly in a browser); update it by hand if any of it changes, it isn't generated from anything.
 
@@ -46,6 +46,12 @@ The front nut is `--brand-7` (`#6a8daf`), not the general `--color-accent` (`#59
 **Wordmark: STACKNUTS.** One word, no space, Barlow Condensed 600, `.14em` tracking, always uppercase.
 
 The lockup is mark + wordmark with the wordmark optically centred on the front nut. The GitHub README banner adds a tagline and repo URL beneath it; the LinkedIn banner and OG image use just the tagline.
+
+## Module icons
+
+`branding/icons/` — one hex-badge icon per module (`cloudflare-cache.svg`, `sort-rules.svg`, `csp-debug.svg`), built from the same hex-nut ring as the mark's back nuts (`--brand-5` fill) with a single simple glyph inside (`--brand-7` stroke, `1.6` weight, no fill) — a bolt for Cloudflare Cache, descending bars for Sort Rules, a shield-check for CSP Debug. One consistent frame, one accent colour, no external icon set.
+
+Used on the site's module cards (leading each card, full-bleed above the tag row) and in place of the mark on that module's own GitHub README banner — the org banner and LinkedIn banner keep the mark, since they represent all of StackNuts rather than one module; a module banner represents one module, so it gets that module's icon instead. Don't use both the mark and a module icon in the same piece — picked one or the other on purpose, tried both together first and it read as too busy.
 
 ## The blueprint object
 
@@ -85,7 +91,8 @@ Sponsorship is asked for without obligation — the work stays free either way.
 ## Asset inventory
 
 - `branding/assets/` — mark and lockup source SVGs: `stacknuts-logo.svg` (mark only, hardcoded fills — a standalone coloured export of the mark, not the same file as `assets/logo.svg` on the site, which strips the fills so `<use fill="...">` can drive the colour from CSS instead), `stacknuts-logo-full.svg` (mark + wordmark, accent-coloured wordmark, transparent ground), `stacknuts-logo-full-dark.svg` (same lockup, on the `#22384d` ground, paper-coloured wordmark), `stacknuts-avatar.svg` (square, no rounded corners, mark cropped tighter than the favicon — for GitHub/social profile photos, which apply their own circular mask), plus `hex-magento.svg` and `lattice-repeatable.svg` supporting pattern pieces.
-- `branding/content/` — finished banner artwork, full nut-cloud + lockup, ready to publish as-is: `stacknuts-github-readme-banner.svg` (1280×320, org-level, includes the `github.com/StackNuts` line), `stacknuts-linkedin-banner.svg` (1584×396), `stacknuts-open-graph-image.svg` (1200×630 canvas cropped to a 1100×530 safe area, headline + subhead copy), and one per-module GitHub README banner — `stacknuts-cloudflare-cache-readme-banner.svg`, `stacknuts-sort-rules-readme-banner.svg`, `stacknuts-csp-debug-readme-banner.svg` (1280×260 — shorter than the org banner, module name + one-liner in place of the generic tagline, no repo URL line — redundant when the banner is already sitting at the top of that exact repo's README). All text in every file here is flattened to path outlines, not live `<text>` — that's what makes them render identically wherever they're dropped (GitHub's `<img>` sandbox won't load embedded webfonts reliably).
+- `branding/icons/` — one hex-badge module icon per module (`cloudflare-cache.svg`, `sort-rules.svg`, `csp-debug.svg`) — see Module icons, above.
+- `branding/content/` — finished banner artwork, full nut-cloud + lockup, ready to publish as-is: `stacknuts-github-readme-banner.svg` (1280×320, org-level, includes the `github.com/StackNuts` line), `stacknuts-linkedin-banner.svg` (1584×396), `stacknuts-open-graph-image.svg` (1200×630 canvas cropped to a 1100×530 safe area, headline + subhead copy), and one per-module GitHub README banner — `stacknuts-cloudflare-cache-readme-banner.svg`, `stacknuts-sort-rules-readme-banner.svg`, `stacknuts-csp-debug-readme-banner.svg` (1280×260 — shorter than the org banner, that module's icon in place of the mark, module name + one-liner in place of the generic tagline, no repo URL line — redundant when the banner is already sitting at the top of that exact repo's README). All text in every file here is flattened to path outlines, not live `<text>` — that's what makes them render identically wherever they're dropped (GitHub's `<img>` sandbox won't load embedded webfonts reliably).
 - `branding/visual-reference.html` — standalone colour/logo/type reference; open directly in a browser.
 - `branding/rendered/` — every SVG in `branding/content/` rendered to PNG (1x + 2x), regenerated by `npm run render:all`, plus `stacknuts-avatar.png` rendered separately (its source lives in `branding/assets/`, outside what `render:all` sweeps). Generated output, not a source — re-run after changing anything upstream rather than hand-editing these.
 - `assets/` (site) — `logo.svg` (mark-only symbols, `#logo-nut-pair` / `#logo-nut-center`, consumed via `<use fill="...">` so the CSS scope controls colour), `favicon.svg` (32×32, fixed hex colours matching the mark), `hero-hex.svg`, `about-lattice.svg`, `styles.css`, `og-image.png` / `favicon-32.png` / `apple-touch-icon.png` — all rendered straight from their SVG sources by `npm run render <svg> <out-basename> <width> <height>` (`scripts/render-svg.mjs`; no headless browser, generates 1x + 2x).
