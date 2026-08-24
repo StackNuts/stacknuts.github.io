@@ -1,0 +1,358 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="50 50 1200 630" font-family="Barlow Condensed, Barlow, sans-serif">
+  <defs>
+    <g id="hex-nut">
+      <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+      <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+    </g>
+  </defs>
+  <rect width="1200" height="630" style="fill: rgb(34, 56, 77);" x="50" y="50"></rect>
+  <g>
+    <rect x="100" y="100" width="1100" height="530" style="fill: none;"></rect>
+    <g style="" transform="matrix(0.39846, 0, 0, 0.39846, 81.11734, 160.846481)">
+      <path d="M 281.884 177.48 L 296.744 176.035 C 297.644 181.024 299.454 184.689 302.194 187.029 C 304.934 189.369 308.624 190.539 313.264 190.539 C 318.184 190.539 321.894 189.498 324.394 187.416 C 326.884 185.335 328.134 182.9 328.134 180.113 C 328.134 178.323 327.604 176.8 326.554 175.544 C 325.504 174.288 323.674 173.196 321.064 172.267 C 319.274 171.647 315.194 170.546 308.824 168.963 C 300.634 166.933 294.894 164.438 291.584 161.479 C 286.944 157.315 284.614 152.239 284.614 146.252 C 284.614 142.398 285.714 138.793 287.894 135.438 C 290.084 132.083 293.234 129.528 297.344 127.773 C 301.454 126.018 306.414 125.141 312.234 125.141 C 321.734 125.141 328.884 127.222 333.684 131.387 C 338.484 135.55 341.004 141.108 341.244 148.058 L 325.964 148.729 C 325.304 144.841 323.904 142.045 321.754 140.342 C 319.604 138.638 316.384 137.786 312.074 137.786 C 307.644 137.786 304.164 138.699 301.654 140.522 C 300.034 141.693 299.224 143.258 299.224 145.22 C 299.224 147.009 299.984 148.54 301.494 149.813 C 303.424 151.431 308.104 153.117 315.534 154.872 C 322.964 156.627 328.464 158.442 332.024 160.317 C 335.594 162.193 338.374 164.757 340.394 168.009 C 342.404 171.26 343.414 175.277 343.414 180.061 C 343.414 184.397 342.204 188.457 339.794 192.243 C 337.384 196.028 333.984 198.841 329.574 200.682 C 325.174 202.523 319.684 203.443 313.114 203.443 C 303.544 203.443 296.194 201.232 291.074 196.811 C 285.944 192.389 282.884 185.945 281.884 177.48 Z M 374.334 202.101 L 374.334 139.232 L 351.884 139.232 L 351.884 126.431 L 412.014 126.431 L 412.014 139.232 L 389.614 139.232 L 389.614 202.101 L 374.334 202.101 Z M 487.264 202.101 L 470.644 202.101 L 464.034 184.913 L 433.794 184.913 L 427.544 202.101 L 411.344 202.101 L 440.814 126.431 L 456.964 126.431 L 487.264 202.101 Z M 459.134 172.163 L 448.704 144.084 L 438.494 172.163 L 459.134 172.163 Z M 540.944 174.28 L 555.754 178.977 C 553.484 187.235 549.714 193.369 544.424 197.378 C 539.144 201.387 532.444 203.392 524.324 203.392 C 514.274 203.392 506.014 199.959 499.544 193.094 C 493.084 186.229 489.844 176.843 489.844 164.937 C 489.844 152.343 493.094 142.562 499.604 135.593 C 506.104 128.625 514.654 125.141 525.254 125.141 C 534.504 125.141 542.024 127.876 547.814 133.347 C 551.254 136.582 553.834 141.228 555.554 147.284 L 540.434 150.897 C 539.534 146.975 537.664 143.878 534.824 141.607 C 531.984 139.335 528.544 138.2 524.484 138.2 C 518.864 138.2 514.314 140.213 510.824 144.239 C 507.334 148.265 505.584 154.786 505.584 163.802 C 505.584 173.368 507.304 180.181 510.744 184.242 C 514.184 188.302 518.664 190.333 524.174 190.333 C 528.224 190.333 531.724 189.042 534.644 186.461 C 537.574 183.881 539.674 179.82 540.944 174.28 Z M 570.124 202.101 L 570.124 126.431 L 585.404 126.431 L 585.404 160.034 L 616.274 126.431 L 636.814 126.431 L 608.324 155.904 L 638.364 202.101 L 618.594 202.101 L 597.794 166.589 L 585.404 179.235 L 585.404 202.101 L 570.124 202.101 Z M 647.464 202.101 L 647.464 126.431 L 662.334 126.431 L 693.294 176.964 L 693.294 126.431 L 707.494 126.431 L 707.494 202.101 L 692.164 202.101 L 661.654 152.756 L 661.654 202.101 L 647.464 202.101 Z M 724.594 126.431 L 739.874 126.431 L 739.874 167.415 C 739.874 173.918 740.064 178.134 740.444 180.061 C 741.094 183.158 742.654 185.644 745.114 187.519 C 747.574 189.395 750.934 190.333 755.204 190.333 C 759.534 190.333 762.804 189.446 765.014 187.674 C 767.214 185.902 768.534 183.726 768.984 181.145 C 769.434 178.564 769.654 174.28 769.654 168.292 L 769.654 126.431 L 784.934 126.431 L 784.934 166.176 C 784.934 175.261 784.524 181.678 783.694 185.429 C 782.874 189.18 781.344 192.346 779.124 194.926 C 776.904 197.507 773.944 199.564 770.224 201.095 C 766.504 202.626 761.654 203.392 755.664 203.392 C 748.444 203.392 742.964 202.557 739.224 200.888 C 735.494 199.219 732.544 197.051 730.374 194.384 C 728.204 191.718 726.784 188.922 726.094 185.997 C 725.094 181.661 724.594 175.261 724.594 166.795 L 724.594 126.431 Z M 819.124 202.101 L 819.124 139.232 L 796.664 139.232 L 796.664 126.431 L 856.804 126.431 L 856.804 139.232 L 834.394 139.232 L 834.394 202.101 L 819.124 202.101 Z M 863.834 177.48 L 878.704 176.035 C 879.594 181.024 881.414 184.689 884.144 187.029 C 886.884 189.369 890.574 190.539 895.224 190.539 C 900.144 190.539 903.844 189.498 906.344 187.416 C 908.834 185.335 910.084 182.9 910.084 180.113 C 910.084 178.323 909.564 176.8 908.514 175.544 C 907.454 174.288 905.634 173.196 903.014 172.267 C 901.224 171.647 897.144 170.546 890.784 168.963 C 882.594 166.933 876.844 164.438 873.544 161.479 C 868.894 157.315 866.574 152.239 866.574 146.252 C 866.574 142.398 867.664 138.793 869.854 135.438 C 872.034 132.083 875.184 129.528 879.294 127.773 C 883.404 126.018 888.374 125.141 894.184 125.141 C 903.684 125.141 910.834 127.222 915.634 131.387 C 920.434 135.55 922.954 141.108 923.194 148.058 L 907.914 148.729 C 907.264 144.841 905.864 142.045 903.704 140.342 C 901.564 138.638 898.334 137.786 894.034 137.786 C 889.594 137.786 886.114 138.699 883.604 140.522 C 881.984 141.693 881.174 143.258 881.174 145.22 C 881.174 147.009 881.934 148.54 883.454 149.813 C 885.374 151.431 890.054 153.117 897.494 154.872 C 904.924 156.627 910.424 158.442 913.984 160.317 C 917.544 162.193 920.334 164.757 922.344 168.009 C 924.364 171.26 925.364 175.277 925.364 180.061 C 925.364 184.397 924.154 188.457 921.754 192.243 C 919.344 196.028 915.934 198.841 911.534 200.682 C 907.124 202.523 901.634 203.443 895.064 203.443 C 885.494 203.443 878.154 201.232 873.024 196.811 C 867.894 192.389 864.834 185.945 863.834 177.48 Z" style="text-wrap-mode: nowrap; fill: rgb(255, 255, 255); stroke-width: 1;"></path>
+      <g transform="matrix(4.12964, 0, 0, 4.12964, 12.287162, 55.73143)" style="">
+        <path d="M20 25 30.4 31v12L20 49 9.6 43V31Z" opacity="0.55" style="stroke: none; fill: none;"></path>
+        <path d="M 31.5 30.365 L 31.5 43.636 L 20 50.271 L 8.5 43.636 L 8.5 30.365 L 20 23.73 Z M 10.7 31.635 L 10.7 42.364 L 20 47.729 L 29.3 42.364 L 29.3 31.635 L 20 26.27 Z" style="stroke: none; fill: rgb(166, 186, 206);"></path>
+        <path d="M 25.6 37 C 25.6 38.467 24.913 40.007 23.96 40.96 C 23.007 41.913 21.468 42.6 20 42.6 C 18.533 42.6 16.993 41.913 16.04 40.96 C 15.087 40.007 14.4 38.468 14.4 37 C 14.4 35.533 15.087 33.993 16.04 33.04 C 16.993 32.087 18.532 31.4 20 31.4 C 21.467 31.4 23.007 32.087 23.96 33.04 C 24.913 33.993 25.6 35.532 25.6 37 Z M 22.404 34.596 C 21.728 33.92 21.018 33.6 20 33.6 C 18.982 33.6 18.272 33.92 17.596 34.596 C 16.92 35.272 16.6 35.982 16.6 37 C 16.6 38.018 16.92 38.728 17.596 39.404 C 18.272 40.08 18.982 40.4 20 40.4 C 21.018 40.4 21.728 40.08 22.404 39.404 C 23.08 38.728 23.4 38.018 23.4 37 C 23.4 35.982 23.08 35.272 22.404 34.596 Z" style="stroke: none; fill: rgb(166, 186, 206);"></path>
+        <path d="M44 25 54.4 31v12L44 49 33.6 43V31Z" opacity="0.55" style="stroke: none; fill: none;"></path>
+        <path d="M 55.5 30.365 L 55.5 43.636 L 44 50.271 L 32.5 43.636 L 32.5 30.365 L 44 23.73 Z M 34.7 31.635 L 34.7 42.364 L 44 47.729 L 53.3 42.364 L 53.3 31.635 L 44 26.27 Z" style="stroke: none; fill: rgb(166, 186, 206);"></path>
+        <path d="M 49.6 37 C 49.6 38.467 48.913 40.007 47.96 40.96 C 47.007 41.913 45.468 42.6 44 42.6 C 42.533 42.6 40.993 41.913 40.04 40.96 C 39.087 40.007 38.4 38.468 38.4 37 C 38.4 35.533 39.087 33.993 40.04 33.04 C 40.993 32.087 42.532 31.4 44 31.4 C 45.467 31.4 47.007 32.087 47.96 33.04 C 48.913 33.993 49.6 35.532 49.6 37 Z M 46.404 34.596 C 45.728 33.92 45.018 33.6 44 33.6 C 42.982 33.6 42.272 33.92 41.596 34.596 C 40.92 35.272 40.6 35.982 40.6 37 C 40.6 38.018 40.92 38.728 41.596 39.404 C 42.272 40.08 42.982 40.4 44 40.4 C 45.018 40.4 45.728 40.08 46.404 39.404 C 47.08 38.728 47.4 38.018 47.4 37 C 47.4 35.982 47.08 35.272 46.404 34.596 Z" style="stroke: none; fill: rgb(166, 186, 206);"></path>
+        <path d="M32 4 42.4 10v12L32 28 21.6 22V10Z" fill="url(#hatch)" style="stroke: none;"></path>
+        <path d="M 43.5 9.365 L 43.5 22.636 L 32 29.271 L 20.5 22.636 L 20.5 9.365 L 32 2.73 Z M 22.7 10.635 L 22.7 21.364 L 32 26.729 L 41.3 21.364 L 41.3 10.635 L 32 5.27 Z" style="fill: rgb(106, 141, 175); stroke: none;"></path>
+        <path d="M 37.6 16 C 37.6 17.467 36.913 19.007 35.96 19.96 C 35.007 20.913 33.468 21.6 32 21.6 C 30.533 21.6 28.993 20.913 28.04 19.96 C 27.087 19.007 26.4 17.468 26.4 16 C 26.4 14.533 27.087 12.993 28.04 12.04 C 28.993 11.087 30.532 10.4 32 10.4 C 33.467 10.4 35.007 11.087 35.96 12.04 C 36.913 12.993 37.6 14.532 37.6 16 Z M 34.404 13.596 C 33.728 12.92 33.018 12.6 32 12.6 C 30.982 12.6 30.272 12.92 29.596 13.596 C 28.92 14.272 28.6 14.982 28.6 16 C 28.6 17.018 28.92 17.728 29.596 18.404 C 30.272 19.08 30.982 19.4 32 19.4 C 33.018 19.4 33.728 19.08 34.404 18.404 C 35.08 17.728 35.4 17.018 35.4 16 C 35.4 14.982 35.08 14.272 34.404 13.596 Z" style="fill: rgb(106, 141, 175); stroke: none;"></path>
+      </g>
+    </g>
+    <g id="cluster" transform="matrix(1.472222, 0, 0, 1.472222, 907.027771, 365)" style="">
+      <rect class="hit" x="-199" y="-180" width="398" height="360" style="fill: rgba(0, 0, 0, 0);"></rect>
+      <g class="cell" transform="translate(-180.1,0.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-157.6,39.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.39" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-135.1,78.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-112.6,117.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.39" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-90.1,156.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-157.6,-39.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-135.1,0.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.44" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-112.6,39.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.41" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-90.1,78.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.44" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-67.5,117.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.41" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-45.0,156.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.39" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-135.1,-78.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-112.6,-39.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.44" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-90.1,0.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.46" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-67.5,39.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.49" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-45.0,78.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.46" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-22.5,117.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.44" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(0.0,156.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-112.6,-117.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-90.1,-78.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.44" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-67.5,-39.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.46" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(0.0,78.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.49" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(22.5,117.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.41" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(45.0,156.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.39" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-90.1,-156.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-67.5,-117.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.44" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-45.0,-78.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.46" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(45.0,78.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.46" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(67.5,117.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.44" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(90.1,156.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-45.0,-156.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.39" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(-22.5,-117.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.41" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(0.0,-78.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.49" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(67.5,39.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.46" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(90.1,78.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.44" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(112.6,117.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(0.0,-156.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(22.5,-117.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.44" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(45.0,-78.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.46" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(67.5,-39.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.49" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(90.1,0.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.46" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(112.6,39.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.44" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(135.1,78.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(45.0,-156.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.39" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(67.5,-117.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.41" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(90.1,-78.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.44" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(112.6,-39.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.41" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(135.1,0.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.44" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(157.6,39.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(90.1,-156.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(112.6,-117.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.39" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(135.1,-78.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex a" style="fill: rgb(89, 128, 166); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(157.6,-39.0) scale(1.76) translate(-32,-16)">
+        <g opacity="0.39" class="hex t" style="fill: rgb(242, 242, 243); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell" transform="translate(180.1,0.0) scale(1.56) translate(-32,-16)">
+        <g opacity="0.36" class="hex s" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 11.5px 13.2705px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;">
+          <path d="M43.5 9.365v13.271L32 29.271 20.5 22.636V9.365L32 2.73Zm-20.8 1.27v10.729L32 26.729l9.3-5.365V10.635L32 5.27Z"></path>
+          <path d="M37.6 16a5.6 5.6 0 1 1-11.2 0 5.6 5.6 0 0 1 11.2 0Zm-2.2 0a3.4 3.4 0 1 0-6.8 0 3.4 3.4 0 0 0 6.8 0Z"></path>
+        </g>
+      </g>
+      <g class="cell glyph" transform="translate(-40,-40) scale(2.5)">
+        <path class="hex s" opacity="0.42" d="M28.985 8.502v14.996l-3.71 2.142v-14.997l-9.275-5.352-9.28 5.352v14.997l-3.705-2.142v-14.996l12.985-7.498zM16 30.996l-5.567-3.214v-14.996l3.711-2.143v14.997l1.856 1.127 1.856-1.127v-14.997l3.713 2.143v14.996z" style="fill: rgb(184, 199, 214); pointer-events: none; transform-origin: 12.985px 14.996px; transition: transform 0.25s, fill 0.25s, opacity 0.25s;"></path>
+      </g>
+    </g>
+    <text style="fill: rgba(242, 242, 243, 0.86); font-size: 59px; font-weight: 500; white-space: pre;" transform="matrix(1, 0, 0, 1, 0, 48.940361)"><tspan x="100" y="300.986">Magento Modules,</tspan><tspan x="100" dy="1.2em">​</tspan><tspan>Bolted On Tight.</tspan></text>
+    <text style="fill: #b8c7d6; font-size: 24px; white-space: pre;" transform="matrix(1, 0, 0, 1, 0.000002, -54.03352)"><tspan x="100" y="533.859">Open source Magento 2 modules built by an Adobe</tspan><tspan x="100" dy="1.5em">​</tspan><tspan>Certified Professional.</tspan></text>
+  </g>
+</svg>
