@@ -4,7 +4,8 @@
   "description": "Dev-only tooling for the StackNuts landing page. Not part of the deployed static site.",
   "type": "module",
   "scripts": {
-    "render": "node scripts/render-svg.mjs"
+    "render": "node scripts/render-svg.mjs",
+    "render:all": "node scripts/render-content.mjs"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",
