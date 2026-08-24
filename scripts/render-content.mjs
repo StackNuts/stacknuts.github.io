@@ -7,7 +7,7 @@
 // Usage:
 //   npm run render:all
 
-import { readFileSync, readdirSync, rmSync, mkdirSync } from "node:fs";
+import { readFileSync, readdirSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { renderOne, naturalWidth, ensureFonts, repoRoot } from "./lib/render.mjs";
@@ -24,7 +24,11 @@ if (svgFiles.length === 0) {
   process.exit(1);
 }
 
-rmSync(outDir, { recursive: true, force: true });
+// Only overwrites the two files (1x + 2x) it's about to write for each
+// branding/content/ SVG — it doesn't clear the directory first. Other files
+// can legitimately live in branding/rendered/ too (e.g. stacknuts-avatar.png,
+// rendered separately from a source in branding/assets/) and this must not
+// delete them.
 mkdirSync(outDir, { recursive: true });
 
 const fontFiles = await ensureFonts();

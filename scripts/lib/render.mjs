@@ -53,11 +53,16 @@ function readIhdr(png) {
 // origin offset in the first two doesn't matter) or width="" attribute.
 // Every file under branding/content/ only declares a viewBox, no width/height
 // attributes, so viewBox is the primary path; width="" is a fallback for
-// anything that does set it explicitly.
+// anything that does set it explicitly. Reads only the document's *root*
+// <svg> tag — files that nest other <svg> elements inside themselves (e.g.
+// an icon composed of a hex frame + glyph, each with their own viewBox) would
+// otherwise match the first nested one instead of the root.
 export function naturalWidth(svg) {
-  const wAttr = svg.match(/<svg\b[^>]*\bwidth="(\d+(?:\.\d+)?)"/);
+  const rootTag = svg.match(/^\s*(?:<\?xml[^>]*\?>\s*)?(?:<!--[\s\S]*?-->\s*)*<svg\b[^>]*>/);
+  const root = rootTag ? rootTag[0] : svg;
+  const wAttr = root.match(/\bwidth="(\d+(?:\.\d+)?)"/);
   if (wAttr) return Math.round(Number.parseFloat(wAttr[1]));
-  const vb = svg.match(/<svg\b[^>]*\bviewBox="\s*[-\d.]+\s+[-\d.]+\s+([\d.]+)\s+([\d.]+)\s*"/);
+  const vb = root.match(/\bviewBox="\s*[-\d.]+\s+[-\d.]+\s+([\d.]+)\s+([\d.]+)\s*"/);
   if (vb) return Math.round(Number.parseFloat(vb[1]));
   return null;
 }
