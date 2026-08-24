@@ -224,7 +224,11 @@
 :root {
   --brand-1: #22384d;
   --brand-2: #416180;
-  --brand-3: #597ea3;
+  --brand-3: #4e7192; /* same hue/saturation as brand-4, -6% lightness.
+    The original #597ea3 was only 0.6% darker than brand-4 — an
+    inherited mismatch from an unrelated generated ramp, not a
+    deliberate choice — so the button hover state it drives was
+    effectively invisible. */
   --brand-4: #5980a6;
   --brand-5: #a6bace;
   --brand-6: #f2f2f3;
@@ -373,6 +377,7 @@ img {
 .card {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .card-title {
   font-family: var(--font-heading);
@@ -548,13 +553,41 @@ body {
 .btn {
   letter-spacing: 0.06em;
 }
-.card {
-  padding: var(--space-24);
-  gap: var(--space-11);
-}
 a.card {
   text-decoration: none;
   color: inherit;
+}
+.card-inner {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: var(--space-24);
+  gap: var(--space-11);
+}
+
+/* — module icon badge — */
+.card-shot {
+  aspect-ratio: 16 / 10;
+  border-bottom: 1px solid var(--color-divider);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.card-shot::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(color-mix(in srgb, var(--color-text) 7%, transparent) 1px, transparent 1px);
+  background-size: 14px 14px;
+  opacity: 0.5;
+}
+.card-shot img {
+  position: relative;
+  width: 128px;
+  height: auto;
+  display: block;
 }
 .card-head {
   display: flex;
